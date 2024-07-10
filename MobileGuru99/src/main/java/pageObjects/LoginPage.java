@@ -13,6 +13,15 @@ public class LoginPage {
       @FindBy(xpath="//span[text()='Create an Account']")
 	  WebElement createAccountButton;
 
+      
+      @FindBy(id="email")
+      WebElement email;
+      
+      @FindBy(id="pass")
+      WebElement password;
+      
+      @FindBy(id="send2")
+      WebElement LOGINButton;
 
 		  public LoginPage(WebDriver driver){
 			  
@@ -26,5 +35,21 @@ public class LoginPage {
 			  createAccountButton.click();
 			  
 		  }
- 
+		  
+		  public void SetEmailAddress(String UserEmail) {
+			  
+			  email.sendKeys(UserEmail);
+		  }
+		  
+          public void SetUserPassword(String Pass) {
+			  
+			  password.sendKeys(Pass);
+		  }
+          
+          public void ClickOnLogin() {
+        	  
+        	  LOGINButton.click();
+        	  
+          }
+		   
 }

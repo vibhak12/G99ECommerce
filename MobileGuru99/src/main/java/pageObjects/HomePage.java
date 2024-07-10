@@ -12,11 +12,17 @@ public class HomePage {
 	@FindBy(xpath="//a[contains(text(),'Mobile')]")
 	WebElement mobile;
 	
+	@FindBy(linkText="TV")
+	WebElement tv;
+	
 	@FindBy(xpath="//span[@class='label' and text()='Account']")
 	WebElement account;
 	
 	@FindBy(xpath="//div[@class='links'][1]//a[@title='My Account']")
 	WebElement myAccount;
+	
+	@FindBy(xpath="//a[@title=\"Log In\"]")
+	WebElement logInButton;
 
 	
 	public HomePage(WebDriver driver){
@@ -29,6 +35,12 @@ public class HomePage {
 	public void clickOnMobile() {
 		
 		mobile.click();
+		
+	}
+	
+public void clickOnTV() {
+		
+		tv.click();
 		
 	}
 	
@@ -47,5 +59,12 @@ public class HomePage {
 		myAccount.click();
 		
 	}
+	
+public void ClickOnLogIn(){
+		
+	logInButton.click();
+		
+	}
+
 	
 }

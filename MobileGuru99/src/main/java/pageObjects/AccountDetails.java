@@ -21,9 +21,17 @@ public class AccountDetails {
 		  @FindBy(xpath="//p[@class='hello']/strong")
 		  WebElement dashboardMsg;
 		  
+		  @FindBy(xpath="//li[@class=\"success-msg\"]//span")
+		  WebElement addWishListSuccMsg;
+		  
 		  
 		  public String GetDashboardMsg(){
 			  
 			  return dashboardMsg.getText();
+		  }
+		  
+		  public String GetWishListSuccMsg() {
+			  
+			  return addWishListSuccMsg.getText();
 		  }
 }
