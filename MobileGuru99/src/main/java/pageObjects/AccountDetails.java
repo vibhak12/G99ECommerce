@@ -24,6 +24,9 @@ public class AccountDetails {
 		  @FindBy(xpath="//li[@class=\"success-msg\"]//span")
 		  WebElement addWishListSuccMsg;
 		  
+		  @FindBy(xpath="//td[contains(@class,'wishlist-cell4')]//button")
+		  WebElement addtoCartButton;
+		  
 		  
 		  public String GetDashboardMsg(){
 			  
@@ -33,5 +36,10 @@ public class AccountDetails {
 		  public String GetWishListSuccMsg() {
 			  
 			  return addWishListSuccMsg.getText();
+		  }
+		  
+		  public void ClickOnAddToCartButton() {
+			  
+			  addtoCartButton.click();
 		  }
 }

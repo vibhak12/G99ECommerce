@@ -55,7 +55,7 @@ public class VerifyAddingWishList extends SetupBase{
 	    String ActualMsg=myAcc.GetWishListSuccMsg();
 	   	Assert.assertTrue(ActualMsg.contains(Tvname)); 
 		
-	}
+	} 
 	
 	@AfterClass
 	public void CloseBrowser() {

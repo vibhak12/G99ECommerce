@@ -24,6 +24,8 @@ public class HomePage {
 	@FindBy(xpath="//a[@title=\"Log In\"]")
 	WebElement logInButton;
 
+	@FindBy(linkText="My Wishlist")
+	WebElement mywishlist;
 	
 	public HomePage(WebDriver driver){
 		
@@ -60,11 +62,15 @@ public void clickOnTV() {
 		
 	}
 	
-public void ClickOnLogIn(){
+    public void ClickOnLogIn(){
 		
 	logInButton.click();
 		
 	}
 
+    public void ClickOnMyWishList(){
 	
+	mywishlist.click();
+		
+	}
 }

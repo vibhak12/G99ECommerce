@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)" preserve-order="true">
     <classes>
-      <class name="testCases.VerifyAddingWishList">
+      <class name="testCases.VerifyPurchasingTheProduct">
         <methods>
-          <include name="TestSetup"/>
+          <include name="SetupOrder"/>
           <include name="CloseBrowser"/>
-          <include name="VerifyWishList"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- testCases.VerifyAddingWishList -->
+      </class> <!-- testCases.VerifyPurchasingTheProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -15,7 +15,7 @@ import pageObjects.MobilePage;
 import pageObjects.SetupBase;
 import pageObjects.ShoppingCartPage;
 
-public class ErrorVerification extends SetupBase{
+public class VerifyOrderLimitError extends SetupBase{
 	
 		  HomePage homepage;
 	      WebDriver driver;

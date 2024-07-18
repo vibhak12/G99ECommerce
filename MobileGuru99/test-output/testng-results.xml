@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-09T22:09:33Z" name="Default suite" finished-at="2024-07-09T22:10:12Z" duration-ms="38843">
+  <suite started-at="2024-07-18T18:29:48Z" name="Default suite" finished-at="2024-07-18T18:30:35Z" duration-ms="47138">
     <groups>
     </groups>
-    <test started-at="2024-07-09T22:09:33Z" name="Default test" finished-at="2024-07-09T22:10:12Z" duration-ms="38843">
-      <class name="testCases.VerifyAddingWishList">
-        <test-method is-config="true" signature="TestSetup()[pri:0, instance:testCases.VerifyAddingWishList@7995092a]" started-at="2024-07-09T18:09:33Z" name="TestSetup" finished-at="2024-07-09T18:09:55Z" duration-ms="22123" status="PASS">
+    <test started-at="2024-07-18T18:29:48Z" name="Default test" finished-at="2024-07-18T18:30:35Z" duration-ms="47138">
+      <class name="testCases.VerifyPurchasingTheProduct">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testCases.VerifyPurchasingTheProduct@7995092a]" started-at="2024-07-18T14:29:48Z" name="Setup" finished-at="2024-07-18T14:30:09Z" duration-ms="20481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSetup -->
-        <test-method signature="VerifyWishList()[pri:0, instance:testCases.VerifyAddingWishList@7995092a]" started-at="2024-07-09T18:09:55Z" name="VerifyWishList" finished-at="2024-07-09T18:10:08Z" duration-ms="13074" status="PASS">
+        </test-method> <!-- Setup -->
+        <test-method signature="SetupOrder()[pri:0, instance:testCases.VerifyPurchasingTheProduct@7995092a]" started-at="2024-07-18T14:30:09Z" name="SetupOrder" finished-at="2024-07-18T14:30:31Z" duration-ms="22103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyWishList -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.VerifyAddingWishList@7995092a]" started-at="2024-07-09T18:10:08Z" name="CloseBrowser" finished-at="2024-07-09T18:10:12Z" duration-ms="3598" status="PASS">
+        </test-method> <!-- SetupOrder -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.VerifyPurchasingTheProduct@7995092a]" started-at="2024-07-18T14:30:31Z" name="CloseBrowser" finished-at="2024-07-18T14:30:35Z" duration-ms="4489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- testCases.VerifyAddingWishList -->
+      </class> <!-- testCases.VerifyPurchasingTheProduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

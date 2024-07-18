@@ -12,7 +12,7 @@ import pageObjects.HomePage;
 import pageObjects.MobilePage;
 import pageObjects.SetupBase;
 
-public class MobileListPageSorting extends SetupBase{
+public class VerifyMobileSortingOrder extends SetupBase{
 	
 	     // SetupBase base;
 	      HomePage homepage;
